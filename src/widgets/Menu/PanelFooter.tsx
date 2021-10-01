@@ -90,16 +90,16 @@ const PanelFooter: React.FC<Props> = ({
       
       </SocialEntry>
       <SettingsEntry>
-        {/* <Button variant="text" onClick={() => toggleTheme(!isDark)}>
+         <Button variant="text" onClick={() => toggleTheme(!isDark)}>
           {/* alignItems center is a Safari fix */}
-          {/* <Flex alignItems="center">
+          <Flex alignItems="center">
             <SunIcon color={isDark ? "textDisabled" : "text"} width="24px" />
             <Text color="textDisabled" mx="4px">
               /
             </Text>
             <MoonIcon color={isDark ? "text" : "textDisabled"} width="24px" />
-          </Flex> */}
-        {/* </Button>  */}
+          </Flex>
+        </Button> 
         {/* <Dropdown
           position="top-right"
           target={
@@ -123,7 +123,7 @@ const PanelFooter: React.FC<Props> = ({
           <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
-            const iconProps = { width: "38px", color: "textSubtle", style: { cursor: "pointer" } };
+            const iconProps = { width: "30px", color: "textSubtle", style: { cursor: "pointer" } };
             const mr = index < socials.length - 1 ? "8px" : 0;
             if (social.items) {
               return (

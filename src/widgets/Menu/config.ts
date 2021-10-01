@@ -1,12 +1,12 @@
 export const links = [
   {
     label: "Home",
-    icon: "HomeIcon",
+    icon: "HomeNewIcon",
     href: "/",
   },
   {
     label: "Trade",
-    icon: "TradeIcon",
+    icon: "TradeNewIcon",
     items: [
       {
         label: "Exchange",
@@ -20,12 +20,12 @@ export const links = [
   },
   {
     label: "Farms",
-    icon: "FarmIcon",
+    icon: "FarmNewIcon",
     href: "/farms",
   },
   {
     label: "Pools",
-    icon: "PoolIcon",
+    icon: "PoolNewIcon",
     href: "/syrup",
   },
   {
